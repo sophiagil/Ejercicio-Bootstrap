@@ -1,0 +1,134 @@
+/*------------Globales----------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Monserrat&display=swap');
+
+body{
+	font-family: 'Monserrat',sans-serif;
+	overflow-x: hidden;
+}
+
+/*-------------Navbar-----------------*/
+
+#menu li > a{
+	font-size: 18px;
+	font-weight:bold;
+	color:#3f3f3f;
+}
+
+#menu form > button{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*-------------Slides-----------------*/
+
+.carrousel-inner{
+
+	max-height: 39rem;
+}
+
+/*-------------Galería Imágenes-----------------*/
+
+#galeria img {
+	width: 100%;
+	max-height: 500px;
+}
+
+/*====================MEDIA QUERIES======================*/
+
+/*-------------Media Queries Pantalla EXTRA-XL-----------------*/
+
+@media(max-width:1400px){
+	#local{
+		flex-wrap: wrap;
+		padding-top: 50px;
+	}
+
+	.wrapper{
+		width: 90%;
+		margin: auto;
+		padding-top: 2px;
+		text-align: center;
+	}
+}
+
+
+/*-------------Media Queries Pantalla XL-----------------*/
+
+@media(max-width: 1200px){
+	#local{
+		flex-wrap: wrap;
+		padding-top: 50px;
+	}
+
+	.wrapper{
+		width: 90%;
+		margin: auto;
+		padding-top: 2px;
+		text-align: center;
+	}
+}
+
+/*-------------Media Queries Pantalla SM-----------------*/
+
+@media(max-width:768px){
+	#intro, #nosotros{
+		width: 90% !important;
+	}
+}
+
+	.servicio-fila {
+		width: 100% !important;
+		text-align: center;
+	}
+}
+
+/*-------------Media Queries Pantalla EXTRA-SM-----------------*/
+
+@media(max-width:576px){
+	.icono-wrap{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+/*-------------MAPA-----------------*/
+
+.mapa{
+	width: 80%;
+	height: 500px;
+}
+
+#local {
+	background: #f3f3f3;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper{
+	width: 80%;
+	margin-left: 100px;
+	padding-top: 50px;
+}
+
+
+/*-------------FOOTER-----------------*/
+
+footer{
+	background: #048527;
+	min-height: 100px;
+}
+
+footer p{
+	color: #f3f3f3;
+	text-align: center;
+}
+
+#iconos i{
+	font-size: 25px;
+	padding: 0 9px;
+	
+
+	color: #f3f3f3;
+}
